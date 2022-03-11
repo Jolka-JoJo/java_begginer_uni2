@@ -2,4 +2,4 @@
 Tasks to practise object-oriented programming in Java
 
 ## 1 Part
-Create a class called Point with it's own properties
+Create a class called Point with it's own properties. Write documentation about class
