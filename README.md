@@ -1,4 +1,4 @@
-# java_begginer_uni2
+# Java begginer tasks
 Tasks to practise object-oriented programming in Java
 
 ## 1 Part
