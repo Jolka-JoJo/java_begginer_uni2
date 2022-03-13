@@ -7,3 +7,6 @@ Create a class called Point with it's own properties. Write documentation about 
 
 ## 2 Part
 Create Emploee class with it's properties.
+
+## 3 Part
+Crete Line class, with it's properties, using Point class from 1 Part
