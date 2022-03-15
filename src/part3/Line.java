@@ -26,8 +26,8 @@ public class Line {
         return pointSecond;
     }
 
-    public void toStringLine(){
-        System.out.println( pointFirst.toStringPoint() + "-" + pointSecond.toStringPoint());
+    public String toString(){
+        return pointFirst.toString() + "-" + pointSecond.toString();
     }
 
     public Double distance(){
