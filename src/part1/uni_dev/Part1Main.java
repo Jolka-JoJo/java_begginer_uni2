@@ -14,14 +14,16 @@ public class Part1Main {
         System.out.println("Atstumas nuo koordinačių sistemos pradžios: " + point_1.distanceFromOrigin());
 
         point_1.translate(2, 3);
-        System.out.println(point_1.toStringPoint());
+        System.out.println(point_1);
+
 
         //Point Nr.2
         Point point_2 = new Point(2,2);
 
         System.out.println(point_1.distance(point_2));
         point_1.setLocation(4,2);
-        System.out.println(point_1.toStringPoint());
+        System.out.println(point_1);
+
 
     }
 }

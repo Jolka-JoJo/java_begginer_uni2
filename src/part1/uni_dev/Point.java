@@ -66,7 +66,7 @@ public class Point {
      * Function to covert point to string in a form [x;y]
      * @return returns string value of point
      */
-    public String toStringPoint(){
+    public String toString(){
         return "[" + x + ";" + y + "]";
     }
 

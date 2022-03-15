@@ -8,7 +8,7 @@ public class MainPart3 {
         Point point2 = new Point(4,4);
 
         Line line = new Line(point1, point2);
-        line.toStringLine();
+        System.out.println(line);
         System.out.println(line.distance());
     }
 }

@@ -27,20 +27,22 @@ public class Company {
         }
     }
 
-    public void toStringCompany(){
-        System.out.println("Įmonės pavadinimas: " + title);
-        System.out.println("Įmonės kodas: " + companyCode);
-        System.out.println("");
-        System.out.println("Darbuotojai:");
+    public String toString(){
+
+        String info = "Įmonės pavadinimas: " + title + "\n";
+        info = info + "Įmonės kodas: " + companyCode + "\n";
+        info = info + "" + "\n";
+        info = info +  "Darbuotojai:" + "\n";
         for (int i=0; i<employees.length; i++){
-            if(employees[i] != null) System.out.println(
-                    i+1 + " " +employees[i].getName()
-                    + " " + employees[i].getSurname()
-                    + " " + employees[i].getSalary());
+            if(employees[i] != null) {
+                int index = i+1;
+                info = info + index + " " +employees[i].getName()
+                        + " " + employees[i].getSurname()
+                        + " " + employees[i].getSalary() + "\n";
+            }
 
         }
-        for (Employee person:employees) {
-        }
-        System.out.println("");
+
+        return info;
     }
 }

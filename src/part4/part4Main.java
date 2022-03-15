@@ -37,7 +37,7 @@ public class part4Main {
                     break;
                 }
                 case 1: {
-                    company.toStringCompany();
+                    System.out.println(company);
                     break;
                 }
                 case 2: {
@@ -51,7 +51,8 @@ public class part4Main {
                     Employee newPerson = new Employee(name, surname, salary);
                     company.addEmployee(newPerson);
 
-                    company.toStringCompany();
+                    System.out.println(company);
+
                     break;
                 }
                 case 3: {
@@ -59,7 +60,8 @@ public class part4Main {
                     int index = input.nextInt();
                     company.deleteEmployee(index-1);
 
-                    company.toStringCompany();
+                    System.out.println(company);
+
                     break;
                 }
                 default:
