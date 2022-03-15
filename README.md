@@ -10,3 +10,6 @@ Create Emploee class with it's properties.
 
 ## 3 Part
 Crete Line class, with it's properties, using Point class from 1 Part
+
+## 4 Part
+Create Company class with it's properties, using Emploee class from 2 Part
