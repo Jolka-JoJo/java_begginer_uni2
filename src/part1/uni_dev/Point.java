@@ -17,7 +17,7 @@ public class Point {
      * @param _x puts x value
      * @param _y puts y value
      */
-    Point(int _x, int _y){
+    public Point(int _x, int _y){
         x=_x;
         y=_y;
     }
@@ -66,7 +66,7 @@ public class Point {
      * Function to covert point to string in a form [x;y]
      * @return returns string value of point
      */
-    public String toString(){
+    public String toStringPoint(){
         return "[" + x + ";" + y + "]";
     }
 
