@@ -13,3 +13,6 @@ Crete Line class, with it's properties, using Point class from 1 Part
 
 ## 4 Part
 Create Company class with it's properties, using Emploee class from 2 Part
+
+## 4 Part
+Create Triangle class with it's properties and additional two child classes: right triangle and equilateral triangle. Count sum of all triangles areas
