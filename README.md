@@ -19,3 +19,6 @@ Create Triangle class with it's properties and additional two child classes: rig
 
 ## 6 Part
 Create Staff class with it's properties and two child classes Trainee and Employee. Employee also should have two children Executive and Hourly. Data is added using constructors. There should be method to count each group's salary.
+
+## 7 Part
+Create abstract Animal class with setters and getters. The class should have two children Hamster and Fish with their properties. All animals should be included into ArrayList and sorted using Comparable interface.
